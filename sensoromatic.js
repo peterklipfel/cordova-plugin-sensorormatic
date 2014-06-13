@@ -65,3 +65,5 @@ var Sensoromatic = new(function () {
 
 
 })();
+
+exports.Sensoromatic

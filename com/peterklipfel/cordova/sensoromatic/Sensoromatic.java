@@ -1,6 +1,6 @@
-package com.modtech;
+package com.peterklipfel.cordova.sensoromatic;
 
-import org.apache.cordova.api.Plugin;
+import org.apache.cordova.api.CordovaPlugin;
 import org.apache.cordova.api.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -10,10 +10,10 @@ import android.hardware.*;
 import java.util.*;
 
 
-/* Sensoromatic PhoneGap Plugin - Allows PhoneGap applications to
+/* Sensoromatic Cordova Plugin - Allows Cordova applications to
  *  access information on hardware sensors present on the host device.
  */
-public class Sensoromatic extends Plugin {
+public class Sensoromatic extends CordovaPlugin {
   
   public static final String GET_ALL_SENSORS  = "poolAllSensors";
   public static final String GET_SPEC_SENSORS = "nativeAction";
